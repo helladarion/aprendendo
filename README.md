@@ -1,5 +1,9 @@
-# aprendendo
-repositorio para aprender a mexer na paradinha
+# Aprendendo
 
-ALTERACAO DAN
-ALTERACAO DO RAFA
+Repositório para aprender a mexer na paradinha.
+
+- Alteração dan
+- Alteração do rafa
+
+Fim das alterações.
+
