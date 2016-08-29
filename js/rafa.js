@@ -1,5 +1,5 @@
 for(var i=1; i < 10; i++){
-	console.log("Vaaaaaiii "+i);
+	console.log("FUUUUIIIIIII "+i);
 }
 
 //constructor for the weapons
@@ -107,8 +107,8 @@ itemList.push(new item("Healer-Kit","1⁄2","50GP"));
 itemList.push(new item("KIT-DE-DISFARCE","4","50GP"));
 itemList.push(new item("KIT-DE-FERREIRO","10","10GP"));
 itemList.push(new item("KIT-DE-LADINO","1","30GP"));
-itemList.push(new item("LÂMPADA","1⁄2","1SP"));
-itemList.push(new item("LANTERNA","1","7GP"));
+itemList.push(new item("Lamp","1⁄2","1SP"));
+itemList.push(new item("Lantern","1","7GP"));
 itemList.push(new item("LENHA-SECA-POR-DIA","9","1CP"));
 itemList.push(new item("LENTE-DE-AUMENTO","0","100","GP"));
 itemList.push(new item("LIVRO-DE-ORAÇÕES","1.5","10GP"));
@@ -119,7 +119,7 @@ itemList.push(new item("MINI-ORATÓRIO","20","40GP"));
 itemList.push(new item("MOCHILA-GRANDE","2","4GP"));
 itemList.push(new item("MOCHILA-MÉDIA","1","2GP"));
 itemList.push(new item("MOCHILA-PEQUENA","1⁄2","1GP"));
-itemList.push(new item("ÓLEO-1⁄2-Litro","1⁄2","1SP"));
+itemList.push(new item("Oil-1⁄2-Litro","1⁄2","1SP"));
 itemList.push(new item("PÁ","3.5","5GP"));
 itemList.push(new item("PANELA-DE-FERRO","4","5SP"));
 itemList.push(new item("PEDERNEIRA","0","1GP"));
@@ -135,9 +135,9 @@ itemList.push(new item("SACO-DE-DORMIR","2","1SP"));
 itemList.push(new item("SELA","15","30GP"));
 itemList.push(new item("SELA-COM-BOLSOS","10","15GP"));
 itemList.push(new item("SÍMBOLO-SAGRADO","1⁄2","25GP"));
-itemList.push(new item("TENDA","9","10GP"));
+itemList.push(new item("Tend","9","10GP"));
 itemList.push(new item("TINTA-FRASCO","0","8GP"));
-itemList.push(new item("TOCHA","1⁄2","1CP"));
+itemList.push(new item("Torch","1⁄2","1CP"));
 itemList.push(new item("VELA","0","1CP"));
 
 var Player = function(name,gender){
