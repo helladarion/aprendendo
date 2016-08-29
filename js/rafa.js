@@ -1,6 +1,3 @@
-for(var i=1; i < 10; i++){
-	console.log("Vaaaaaiii "+i);
-}
 
 //constructor for the weapons
 var weapon = function(name, cost, fa, type, dodge, critic, range, speed, weight){

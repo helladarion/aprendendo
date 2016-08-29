@@ -1,4 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Test pages</title>
+    <script>
+      window.onload = function() {
+        function getUsername() {
+          var user_name = localStorage._user_name || prompt('Type your username:', '');
+          user_name = user_name && user_name.trim() || '';
+          return user_name || getUsername();
+        };
 
-<h2><a href="html/pong.html" rel="">pong.html</a></h2>
-<h2><a href="html/snake.html" rel="">snake.html</a></h2>
+        localStorage._user_name = getUsername()
+
+        document.querySelector('#greetings').textContent = 'Hello ' + localStorage._user_name;
+      }
+    </script>
+  </head>
+  <body>
+    <h2><a href="html/pong.html" rel="">pong.html</a></h2>
+    <h2><a href="html/snake.html" rel="">snake.html</a></h2>
+    <h2><span id="greetings"></span></h2>
+  </body>
+</html>
 
