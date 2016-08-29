@@ -71,6 +71,21 @@
   armorList.push(new armor("Full Plate", "1500", "A+H+3d+3", "3","-3","-2",22.5));
   armorList.push(new armor("Large Wooden Shield", "30", "FD+3", "0","-2","-3",4.5));
 
+  var Player = function(name,gender){
+    this.name = name;
+    this.gender = gender;
+    this.inventory = [];
+    this.gold = 0;
+    this.characteristics = {
+      strenght: 0,
+      ability: 0,
+      armor: 0,
+      resistance: 0,
+      distanceAtack:0,
+    };
+    this.hp = 5;
+    this.mp = 4;
+  };
   //List of items
   var itemList = [];
   itemList.push(new item("Aconite handfull","1⁄2","1GP"));
@@ -104,8 +119,8 @@
   itemList.push(new item("KIT-DE-DISFARCE","4","50GP"));
   itemList.push(new item("KIT-DE-FERREIRO","10","10GP"));
   itemList.push(new item("KIT-DE-LADINO","1","30GP"));
-  itemList.push(new item("LÂMPADA","1⁄2","1SP"));
-  itemList.push(new item("LANTERNA","1","7GP"));
+  itemList.push(new item("Lamp","1⁄2","1SP"));
+  itemList.push(new item("Lantern","1","7GP"));
   itemList.push(new item("LENHA-SECA-POR-DIA","9","1CP"));
   itemList.push(new item("LENTE-DE-AUMENTO","0","100","GP"));
   itemList.push(new item("LIVRO-DE-ORAÇÕES","1.5","10GP"));
@@ -116,7 +131,7 @@
   itemList.push(new item("MOCHILA-GRANDE","2","4GP"));
   itemList.push(new item("MOCHILA-MÉDIA","1","2GP"));
   itemList.push(new item("MOCHILA-PEQUENA","1⁄2","1GP"));
-  itemList.push(new item("ÓLEO-1⁄2-Litro","1⁄2","1SP"));
+  itemList.push(new item("Oil-1⁄2-Litro","1⁄2","1SP"));
   itemList.push(new item("PÁ","3.5","5GP"));
   itemList.push(new item("PANELA-DE-FERRO","4","5SP"));
   itemList.push(new item("PEDERNEIRA","0","1GP"));
@@ -132,26 +147,10 @@
   itemList.push(new item("SELA","15","30GP"));
   itemList.push(new item("SELA-COM-BOLSOS","10","15GP"));
   itemList.push(new item("SÍMBOLO-SAGRADO","1⁄2","25GP"));
-  itemList.push(new item("TENDA","9","10GP"));
+  itemList.push(new item("Tend","9","10GP"));
   itemList.push(new item("TINTA-FRASCO","0","8GP"));
-  itemList.push(new item("TOCHA","1⁄2","1CP"));
+  itemList.push(new item("Torch","1⁄2","1CP"));
   itemList.push(new item("VELA","0","1CP"));
-
-  var Player = function(name,gender){
-    this.name = name;
-    this.gender = gender;
-    this.inventory = [];
-    this.gold = 0;
-    this.characteristics = {
-      strenght: 0,
-      ability: 0,
-      armor: 0,
-      resistance: 0,
-      distanceAtack:0,
-    };
-    this.hp = 5;
-    this.mp = 4;
-  };
 
   var dice = {
     d4:4,
@@ -178,11 +177,10 @@
     }
   };
 
-
-
   var rafa = new Player("Rafael", "male");
   //console.log(rafa);
-
   console.log(dice.roll(dice.d20));
+  rafa.inventory.push("Magic shoes");
+  console.log(rafa.inventory);
 }();
 
