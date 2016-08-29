@@ -185,5 +185,7 @@ var dice = {
 
 var rafa = new Player("Rafael", "male");
 //console.log(rafa);
+rafa.inventory.push("Magic shoes");
+console.log(rafa.inventory);
 
 console.log(dice.roll(dice.d20));
