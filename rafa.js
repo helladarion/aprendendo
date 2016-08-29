@@ -140,3 +140,50 @@ itemList.push(new item("TINTA-FRASCO","0","8GP"));
 itemList.push(new item("TOCHA","1⁄2","1CP"));
 itemList.push(new item("VELA","0","1CP"));
 
+var Player = function(name,gender){
+	this.name = name;
+	this.gender = gender;
+	this.inventory = [];
+	this.gold = 0;
+	this.characteristics = {
+		strenght: 0,
+		ability: 0,
+		armor: 0,
+		resistance: 0,
+		distanceAtack:0,
+	};
+	this.hp = 5;
+	this.mp = 4;
+};
+
+var dice = {
+	d4:4,
+	d6:6,
+	d8:8,
+	d10:10,
+	d12:12,
+	d20:20,
+	d100:100,
+	roll: function(sizes,qtt) {
+		var totalRoll = 0;
+		var thisRoll = 0;
+		if (qtt === undefined) qtt=1;
+		//console.log(qtt);
+		var i = 1;
+		do {
+			thisRoll = Math.floor((Math.random()*sizes+1));
+			console.log("You Roll "+ i + " value: "+ thisRoll);
+			totalRoll += thisRoll;
+			i++;
+
+		}while (i <= qtt);
+		return totalRoll;
+	}
+};
+
+
+
+var rafa = new Player("Rafael", "male");
+//console.log(rafa);
+
+console.log(dice.roll(dice.d20));
