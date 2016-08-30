@@ -1,0 +1,483 @@
++ PC:
+
+	- PC: Movimentacao;
+
+	- PC: Troca PC;
+
+	- PC: Troca componente;
+
+	- PC: Inclusao de componente;*
+
+	- PC: Limpeza interna;
+
+	- PC: Analise de equipamento;
+
+
+
++ Teclado:
+
+	- Teclado: Troca componente;
+
+	- Teclado: Configuracao;
+
+
+
++ Mouse:
+
+	- Mouse: Troca componente;
+
+	- Mouse: Configuracao;
+
+
+
++ Monitor:
+
+	- Monitor: Troca componente;
+
+	- Monitor: Configuracao;
+
+
+
++ Sistema operacional:
+
+	- SO: Instalacao completa;
+
+	- SO: Upgrade versao;
+
+	- SO: Downgrade versao;
+
+	- SO: Atualizacao drivers;
+
+	- SO: Configuracao sistema;
+
+	- SO: Configuracao para melhoria de desempenho;
+
+	- SO: Criacao usuario local;
+
+	- SO: Mapeamento de diretorio para a rede;
+
+	- SO: Mensagem de erro;
+
+	- SO: Ativacao;
+
+	- SO: Formatacao dispositivo;
+
+
+
++ Office 2016:
+
+	- Office 2016: Ativacao;
+
+	- Office 2016: Configuracao;
+
+	- Office 2016: mensagem de erro;
+
+	- Office 2016: reparacao instalacao;
+
+	- Office 2016: reinstalacao;
+
+	- Office 2016: orientacao usuario;
+
+
+
++ Project 2016:
+
+	- Project 2016: instalacao;
+
+	- Project 2016: Ativacao;
+
+	- Project 2016: Configuracao;
+
+	- Project 2016: mensagem de erro;
+
+	- Project 2016: reparacao instalacao;
+
+	- Project 2016: reinstalacao;
+
+	- Project 2016: orientacao usuario;
+
+
+
++ Outlook 2016:
+
+	- Outlook 2016: Configuracao;
+
+	- Outlook 2016: mensagem de erro;
+
+	- Outlook 2016: orientacao usuario;
+
+	- Outlook 2016: Geracao de backup PST;
+
+	- Outlook 2016: Configuracao e-mail;
+
+	- Outlook 2016: Restauracao backup PST;
+
+	- Outlook 2016: Criacao assinatura;
+
+
+
++ Instalacao inicial PC:
+
+	- Instalacao inicial: Geracao de backup;
+
+	- Instalacao inicial: Geracao de backup PST;
+
+	- Instalacao inicial: Limpeza interna de PC;
+
+	- Instalacao inicial: Restauracao de imagem;
+
+	- Instalacao inicial: Instalacao drivers;
+
+	- Instalacao inicial: Instalacao programas;
+
+	- Instalacao inicial: Mapeamento de rede;
+
+	- Instalacao inicial: Instalacao impressora;
+
+	- Instalacao inicial: Configuracao impressora padrao;
+
+	- Instalacao inicial: Restauracao backup;
+
+	- Instalacao inicial: Configuracao e-mail;
+
+	- Instalacao inicial: Restauracao backup PST;
+
+	- Instalacao inicial: Atualizacao Avast;
+
+
+
++ Adobe Reader:
+
+	- Adobe Reader: mensagem de erro;
+
+	- Adobe Reader: reinstalacao;
+
+	- Adobe Reader: orientacao usuario;
+
+	- Adobe Reader: definicao programa padrao;
+
+
+
++ Java:
+
+	- Java: mensagem de erro;
+
+	- Java: reinstalacao;
+
+	- Java: orientacao usuario;
+
+
+
++ Cute PDF:
+
+	- Cute PDF: mensagem de erro;
+
+	- Cute PDF: reinstalacao;
+
+	- Cute PDF: reinstalacao conversor:
+
+	- Cute PDF: orientacao usuario;
+
+	- Cute PDF: definicao impressora padrao;
+
+
+
++ Chrome:
+
+	- Chrome: Atualizacao;
+
+	- Chrome: Configuracao;
+
+	- Chrome: mensagem de erro;
+
+	- Chrome: reinstalacao;
+
+	- Chrome: orientacao usuario;
+
+	- Chrome: Instalacao plugin;
+
+
+
++ Firefox:
+
+	- Firefox: Atualizacao;
+
+	- Firefox: Configuracao;
+
+	- Firefox: mensagem de erro;
+
+	- Firefox: reinstalacao;
+
+	- Firefox: orientacao usuario;
+
+	- Firefox: Instalacao plugin;
+
+
+
++ Internet Explorer:
+
+	- IE: Atualizacao;
+
+	- IE: Configuracao;
+
+	- IE: mensagem de erro;
+
+	- IE: reinstalacao;
+
+	- IE: orientacao usuario;
+
+	- IE: Instalacao plugin;
+
+
+
++ 7Zip:
+
+	- 7Zip: Atualizacao;
+
+	- 7Zip: Configuracao;
+
+	- 7Zip: mensagem de erro;
+
+	- 7Zip: reinstalacao;
+
+	- 7Zip: orientacao usuario;
+
+
+
++ VLC:
+
+	- VLC: Atualizacao;
+
+	- VLC: Configuracao;
+
+	- VLC: mensagem de erro;
+
+	- VLC: reinstalacao;
+
+	- VLC: orientacao usuario;
+
+	- VLC: Instalacao plugin;
+
+
+
++ Teamviewer Host:
+
+	- Teamviewer Host: Configuracao;
+
+	- Teamviewer Host: mensagem de erro;
+
+	- Teamviewer Host: reinstalacao;
+
+	- Teamviewer Host: orientacao usuario;
+
+
+
++ Skype:
+
+	- Skype: Atualizacao;
+
+	- Skype: Configuracao;
+
+	- Skype: mensagem de erro;
+
+	- Skype: reinstalacao;
+
+	- Skype: orientacao usuario;
+
+
+
++ Antivirus:
+
+	- Antivirus: Atualizacao;
+
+	- Antivirus: Configuracao;
+
+	- Antivirus: Varredura completa;
+
+	- Antivirus: mensagem de erro;
+
+	- Antivirus: reinstalacao;
+
+	- Antivirus: Remocao de malware;
+
+	- Antivirus: orientacao usuario;
+
+
+
++ ZW CAD:
+
+	- ZW CAD: Ativacao;
+
+	- ZW CAD: Configuracao;
+
+	- ZW CAD: mensagem de erro;
+
+	- ZW CAD: reinstalacao;
+
+	- ZW CAD: orientacao usuario;
+
+
+
++ AutoCAD:
+
+	- AutoCAD: Ativacao;
+
+	- AutoCAD: Configuracao;
+
+	- AutoCAD: mensagem de erro;
+
+	- AutoCAD: reinstalacao;
+
+	- AutoCAD: orientacao usuario;
+
+
+
++ Windows Power Shell:
+
+	- Windows Power Shell: instalacao;
+
+	- Windows Power Shell: Configuracao;
+
+	- Windows Power Shell: mensagem de erro;
+
+	- Windows Power Shell: reinstalacao;
+
+	- Windows Power Shell: orientacao usuario;
+
+
+
++ Forticlient:
+
+	- Forticlient: instalacao;
+
+	- Forticlient: Configuracao;
+
+	- Forticlient: mensagem de erro;
+
+	- Forticlient: reinstalacao;
+
+	- Forticlient: orientacao usuario;
+
+
+
++ CCLeaner:
+
+	- CCLeaner: Atualizacao;
+
+	- CCLeaner: Configuracao;
+
+	- CCLeaner: mensagem de erro;
+
+	- CCLeaner: reinstalacao;
+
+	- CCLeaner: limpeza de sistema;
+
+	- CCLeaner: orientacao usuario;
+
+
+
++ TS RM_Obras:
+
+	- TS RM_Obras: Configuracao;
+
+	- TS RM_Obras: mensagem de erro;
+
+	- TS RM_Obras: orientacao usuario;
+
+
+
++ Impressora:
+
+	- Impressora: Configuracao impressora;
+
+	- Impressora: Mensagem de erro;
+
+	- Impressora: Contato fornecedor;
+
+
+
++ E-Mail:
+
+	- E-Mail: Acesso webmail;
+
+	- E-Mail: Contato fornecedor;
+
+
+
++ Programas (fora do ambiente):
+
+	- Programa (fa): Instalacao;
+
+	- Programa (fa): Configuracao;
+
+	- Programa (fa): mensagem de erro;
+
+	- Programa (fa): reinstalacao;
+
+	- Programa (fa): orientacao usuario;
+
+	- Programa (fa): Contato fornecedor;
+
+
+
++ Internet:
+
+	- Internet: Falta internet;
+
+	- Internet: Erro internet;
+
+	- Internet: Contato fornecedor;
+
+
+
++ Rede:
+
+	- Rede: Erro rede;
+
+	- Rede: Configuracao;
+
+	- Rede: Configuracao roteador;
+
+	- Rede: Troca componente;
+
+
+
++ Servidor:
+
+	- Servidor: Backup local;
+
+	- Servidor: Backup nuvem;
+
+	- Servidor: Inclusao HD;
+
+	- Servidor: Troca componente;
+
+	- Servidor: Configuracao servidor;
+
+	- Servidor: Analise de servidor;
+
+	- Servidor: Criacao usuario;
+
+	- Servidor: Configuracao usuario;
+
+	- Servidor: Concessao acesso;
+
+
+
++ Citrix:
+
+	- Citrix: Mensagem de erro:
+
+	- Citrix: Configuracao;
+
+	- Citrix: Desligar VM;
+
+	- Citrix: Ligar VM;
+
+	- Citrix: Reiniciar VM;
+
+
+
++ Consultoria TI:
+
+	- Consultoria: Orientacao TI;
