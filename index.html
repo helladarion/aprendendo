@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
     <title>HTML5 Projects</title>
+    <script>
+      window.onload = function() {
+        function getUsername() {
+          var user_name = localStorage._user_name || prompt('Type your username:', '');
+          user_name = user_name && user_name.trim() || '';
+          return user_name || getUsername();
+        };
+
+        localStorage._user_name = getUsername()
+
+        document.querySelector('#greetings').textContent = 'Hello ' + localStorage._user_name;
+      }
+    </script>
   </head>
   <body>
-    <center><h1>Teste</h1>
-      <h2><a href="html/pong.html" rel="">pong.html</a></h2>
-      <h2><a href="html/snake.html" rel="">snake.html</a></h2>
-    </center>
+    <h2><a href="html/pong.html" rel="">pong.html</a></h2>
+    <h2><a href="html/snake.html" rel="">snake.html</a></h2>
+    <h2><a href="html/projectEuler1.html" rel="">ProjectEuler1</a></h2>
+    <h2><span id="greetings"></span></h2>
   </body>
 </html>
